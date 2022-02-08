@@ -1,0 +1,27 @@
+#foot {
+    width: 100%;
+    display: grid;
+    background-color: $BGfoot;
+    grid-template-columns: 1fr 1fr;
+    color: $white;
+    &-text {
+        font-family: 'Quicksand', sans-serif;
+        text-align: center;
+        padding: 20px 70px;
+        font-size: 25px;
+        word-break: break-all;
+    }
+    &-nsn {
+        text-align: center;
+        justify-items: center;
+        .nsn-icon {
+            height: 112px;
+            width: auto;
+            padding: 18px;
+        }
+        .nsn-text {
+            font-size: 18px;
+            line-height: 22.5px;
+        }
+    }
+}

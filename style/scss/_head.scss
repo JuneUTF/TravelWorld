@@ -1,0 +1,39 @@
+#head {
+    position: relative;
+    width: 100%;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 400;
+    height: 110px;
+    color: $TextColor;
+    background-color: $BGC_Head;
+    &-logo {
+        position: absolute;
+        right: 50%;
+        transform: translateX(50%);
+    }
+    &-list {
+        width: 100%;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-justify-content: space-between;
+        justify-content: space-between;
+        .head-list {
+            ul {
+                width: 100%;
+                display: -webkit-flex;
+                display: flex;
+                padding: 0 60px;
+            }
+            display: flex;
+            li {
+                list-style: none;
+                font-size: 18px;
+                padding: 0 20px;
+                line-height: 110px;
+                a {
+                    color: $TextColor;
+                }
+            }
+        }
+    }
+}

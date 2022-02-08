@@ -1,0 +1,57 @@
+#about {
+    width: 100%;
+    &-contact {
+        position: relative;
+        height: 513px;
+        &-img {
+            img {
+                position: absolute;
+            }
+        }
+        &-signin {
+            position: absolute;
+            top: 44%;
+            display: flex;
+            display: -webkit-flex;
+            .signin-text {
+                width: 52%;
+                padding: 20px;
+                font-size: 20px;
+                word-break: break-all;
+                text-align: center;
+                color: $white;
+                font-size: 33px;
+                transform: translateY(-25%);
+                font-family: 'Quicksand', sans-serif;
+            }
+            input {
+                height: 50px;
+                line-height: 28px;
+                text-align: center;
+                width: 20%;
+                font-size: 18px;
+                border-radius: 8px;
+                border: 1px solid $black;
+                font-weight: 100;
+            }
+            button {
+                margin-left: 10px;
+                height: 55px;
+                background: $BtnColor;
+                border: 1px solid #000000;
+                border-radius: 8px;
+                color: $white;
+                width: 95px;
+            }
+        }
+    }
+    &-send {
+        width: 100%;
+        background-color: $BGC_Head;
+        padding-bottom: 60px;
+        img {
+            margin-left: 50%;
+            transform: translateX(-50%);
+        }
+    }
+}
